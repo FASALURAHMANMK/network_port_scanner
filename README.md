@@ -123,7 +123,7 @@ List<String> results = await NetworkScanner.scanNetwork(
 
 ## Complete Example
 
-See the [example](https://github.com/yourusername/network_port_scanner/main/example) folder for a complete example application.
+See the [example](https://github.com/FASALURAHMANMK/network_port_scanner/main/example) folder for a complete example application.
 
 ## License
 
