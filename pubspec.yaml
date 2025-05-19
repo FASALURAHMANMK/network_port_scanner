@@ -1,6 +1,6 @@
 name: network_port_scanner
 description: A Flutter package for scanning networks to discover devices with specific open ports. Supports both Wi-Fi and Ethernet connections.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/FASALURAHMANMK/network_port_scanner
 repository: https://github.com/FASALURAHMANMK/network_port_scanner
 issue_tracker: https://github.com/FASALURAHMANMK/network_port_scanner/issues

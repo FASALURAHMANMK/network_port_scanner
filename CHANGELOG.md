@@ -10,3 +10,7 @@
 - Configurable scan parameters (timeout, IP range, custom subnet)
 - Comprehensive documentation and examples
 - Support for Flutter mobile, desktop, and web platforms
+
+## 1.0.1
+
+- Updated network_info_plus package from 4.0.0 to 6.1.4(Latest)
