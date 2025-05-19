@@ -1,4 +1,3 @@
-// lib/network_port_scanner.dart
 /// A Flutter package for scanning network ports to discover devices with specific open ports.
 ///
 /// This package provides utilities for scanning local networks to find devices

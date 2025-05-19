@@ -1,4 +1,3 @@
-// example/network_port_scanner_example.dart
 import 'package:flutter/material.dart';
 import 'package:network_port_scanner/network_port_scanner.dart';
 
