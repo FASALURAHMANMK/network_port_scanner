@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:network_info_plus/network_info_plus.dart';
 
 /// A utility class for network port scanning.
@@ -160,7 +161,9 @@ class NetworkScanner {
         return wifiIP;
       }
     } catch (e) {
-      print('Error getting Wi-Fi IP: $e');
+      if (kDebugMode) {
+        print('Error getting Wi-Fi IP: $e');
+      }
     }
 
     // If network_info_plus fails, try getting IP from network interfaces (works for Ethernet)
@@ -180,7 +183,9 @@ class NetworkScanner {
         }
       }
     } catch (e) {
-      print('Error getting network interfaces: $e');
+      if (kDebugMode) {
+        print('Error getting network interfaces: $e');
+      }
     }
 
     return null;
