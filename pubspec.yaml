@@ -23,12 +23,12 @@ dev_dependencies:
 
 flutter:
   # No Flutter-specific assets or configurations needed
-  
-screenshots:
-  - description: 'Network port scanner in action'
-    path: screenshots/scanner_demo.png
-  - description: 'Results display'
-    path: screenshots/results_display.png
+
+#screenshots:
+  #- description: 'Network port scanner in action'
+    #path: screenshots/scanner_demo.png
+  #- description: 'Results display'
+    #path: screenshots/results_display.png
 
 # Add topics for the pub.dev search
 topics:
