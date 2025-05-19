@@ -23,7 +23,7 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  network_port_scanner: ^1.0.0
+  network_port_scanner: ^1.0.1
 ```
 
 Then run:
